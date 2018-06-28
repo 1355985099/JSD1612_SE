@@ -18,8 +18,7 @@ public class OutputStreamWriter_write {
 	public static void main(String[] args) throws IOException {
 		FileOutputStream fos = new FileOutputStream("osw.txt");
 		OutputStreamWriter osw = new OutputStreamWriter(fos, "utf-8");
-		osw.write("和我在成都的街头走一走,");
-		osw.write("直到所有的灯都熄灭了也不停留.");
+		osw.write("和我在成都的街头走一走");
 		System.out.println("写出完毕");
 		osw.close();
 	}
